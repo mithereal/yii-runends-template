@@ -16,11 +16,16 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+//            'application.modules.user.models.*',  //yii user management
+//            'application.modules.rights.*',  //rights rbac
+//            'application.modules.rights.components.*', //rights rbac
 	),
 /*
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
-		
+		'user' => array(
+      'debug' => true,
+      ),
 		'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'12345',
@@ -35,16 +40,23 @@ return array(
                     'ext.gii-template-collection-develop.fullCrud'
                 ),
 		),
+                    'rights'=>array(
+                    'install'=>true,
+                    ),
 		
 	),
 */
 	// application components
 	'components'=>array(
-		'user'=>array(
-			// enable cookie-based authentication
-			'allowAutoLogin'=>true,
-		),
-		// uncomment the following to enable URLs in path-format
+            'cache' => array('class' => 'system.caching.CDummyCache'),
+            'user' => array(
+            // enable cookie-based authentication
+//            'class' => 'RWebUser',   //rights rbac
+//            'class' => 'application.modules.user.components.YumWebUser', //yii user management
+//            'loginUrl' => array('//user/user/login'), //yii user management
+            'allowAutoLogin' => true,
+        ),
+        // uncomment the following to enable URLs in path-format
 		/*
 		'urlManager'=>array(
 			'urlFormat'=>'path',
@@ -66,6 +78,7 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
+                        'tablePrefix' => '',
 		),
             */
                 
@@ -103,4 +116,9 @@ return array(
 		'class'=>'application.components.WebApplicationEndBehavior',
     ),
 ),
+//    'session' => array(
+//        'sessionName' => 'SiteSession',
+//        'class' => 'CHttpSession',
+//        'autoStart' => true,
+//        ),
 );
