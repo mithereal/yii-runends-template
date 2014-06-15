@@ -1,0 +1,62 @@
+2014/06/15 15:31:43 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/SiteController.php (36)
+in /var/www/yiikart/index.php (13)
+2014/06/15 15:43:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "site".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yiikart/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php
+---
+2014/06/15 15:46:08 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "runEnd".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiikart/index.php(13): CComponent->__call('runEnd', Array)
+#1 /var/www/yiikart/index.php(13): CWebApplication->runEnd('frontend')
+#2 {main}
+REQUEST_URI=/index.php
+---
+2014/06/15 15:47:28 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "endName".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiikart/index.php(13): CComponent->__call('endName', Array)
+#1 /var/www/yiikart/index.php(13): CWebApplication->endName('frontend')
+#2 {main}
+REQUEST_URI=/index.php
+---
+2014/06/15 15:48:12 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "endName".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiikart/index.php(13): CComponent->__call('endName', Array)
+#1 /var/www/yiikart/index.php(13): CWebApplication->endName('front')
+#2 {main}
+REQUEST_URI=/index.php
+---
+2014/06/15 15:48:41 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "runEnd".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiikart/index.php(13): CComponent->__call('runEnd', Array)
+#1 /var/www/yiikart/index.php(13): CWebApplication->runEnd('frontend')
+#2 {main}
+REQUEST_URI=/index.php
+---
+2014/06/15 15:53:19 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "runEnd".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiikart/index.php(13): CComponent->__call('runEnd', Array)
+#1 /var/www/yiikart/index.php(13): CWebApplication->runEnd('frontend')
+#2 {main}
+REQUEST_URI=/index.php
+---
+2014/06/15 15:57:41 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 15:57:53 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/backend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/backend.php (13)
+2014/06/15 15:58:02 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 15:59:42 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
