@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'yii1 with runends',
+	'name'=>'yii with runends',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -26,6 +26,14 @@ return array(
 			'password'=>'12345',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
+                     'generatorPaths' => array(
+                    'ext.giix-core', 
+                    'ext.giix-components', 
+                    'ext.gtc',
+                    'ext.gii-template-collection-develop.components',
+                    'ext.gii-template-collection-develop.fullModel',
+                    'ext.gii-template-collection-develop.fullCrud'
+                ),
 		),
 		
 	),

@@ -60,3 +60,19 @@ in /var/www/yiikart/index.php (13)
 in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
 in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
 in /var/www/yiikart/index.php (13)
+2014/06/15 16:11:19 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 16:11:19 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 16:12:10 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 16:43:23 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
