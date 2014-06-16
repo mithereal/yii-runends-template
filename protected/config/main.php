@@ -49,6 +49,11 @@ return array(
 	// application components
 	'components'=>array(
             'cache' => array('class' => 'system.caching.CDummyCache'),
+            //'s3' => array(
+	    	//'class' => 'ext.s3.ES3',
+	    	//'aKey'=>getenv('AWS_ACCESS_KEY'), 
+	  		//'sKey'=>getenv('AWS_SECRET'),
+	  	//),
             'user' => array(
             // enable cookie-based authentication
 //            'class' => 'RWebUser',   //rights rbac

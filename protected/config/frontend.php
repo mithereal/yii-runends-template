@@ -1,9 +1,15 @@
 <?PHP 
 return CMap::mergeArray(
-    require(dirname(__FILE__).'/main.php'),
+    require(dirname(__FILE__). '/env/' . ENVIRONMENT .'/main.php'),
     array(
-        // Put front-end settings there
-        // (for example, url rules).
+        'components'=>array(
+		's3' => array(
+	    	'class' => 'ext.s3.ES3',
+	    	'aKey'=>getenv('AWS_ACCESS_KEY'), 
+	  		'sKey'=>getenv('AWS_SECRET'),
+	  	),
+	),
+	'params'=>require(dirname(__FILE__).'/params.php'),
     )
 );
 
