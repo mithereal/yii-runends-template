@@ -166,3 +166,27 @@ in /var/www/yiikart/index.php (13)
 in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
 in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
 in /var/www/yiikart/index.php (13)
+2014/06/15 20:39:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yiikart/protected/components/WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 /var/www/framework/base/CComponent.php(261): call_user_func_array(Array, Array)
+#5 /var/www/yiikart/index.php(13): CComponent->__call('runEnd', Array)
+#6 /var/www/yiikart/index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/index.php?r=gii
+---
+2014/06/15 20:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in /var/www/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/framework/web/CWebApplication.php(141): CWebApplication->runController('gii')
+#1 /var/www/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/yiikart/protected/components/WebApplicationEndBehavior.php(25): CApplication->run()
+#3 [internal function]: WebApplicationEndBehavior->runEnd('frontend')
+#4 /var/www/framework/base/CComponent.php(261): call_user_func_array(Array, Array)
+#5 /var/www/yiikart/index.php(13): CComponent->__call('runEnd', Array)
+#6 /var/www/yiikart/index.php(13): CWebApplication->runEnd('frontend')
+#7 {main}
+REQUEST_URI=/index.php?r=gii
+---

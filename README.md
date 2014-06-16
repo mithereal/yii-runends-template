@@ -1,5 +1,17 @@
 # Yii skeleton template with run-ends
-    Boilerplate for yii app utilizing run-ends
+##   Boilerplate for yii app utilizing run-ends
+
+Features:
+* GTC (theysus version)
+* yii-debug-toolbar
+* phpconsole
+* s3
+* GIX
+* gii-template-collection
+* yii-user-management
+* Rights rbac
+* Mantis Asset manager
+* yii-debugbar
 
 Credits
 -------

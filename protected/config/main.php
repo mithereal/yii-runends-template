@@ -42,6 +42,7 @@ return array(
                     'ext.giix-core', 
                     'ext.giix-components', 
                     'ext.gtc',
+                    'ext.fixture-generator',
                     'ext.gii-template-collection-develop.components',
                     'ext.gii-template-collection-develop.fullModel',
                     'ext.gii-template-collection-develop.fullCrud'
