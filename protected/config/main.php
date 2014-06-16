@@ -14,7 +14,7 @@ if(getenv('ENVIRONMENT')){
 define('ENVIRONMENT', $env);
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'yii with runends',
+	'name'=>'yii with run-ends',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -56,11 +56,6 @@ return array(
 	// application components
 	'components'=>array(
             'cache' => array('class' => 'system.caching.CDummyCache'),
-            //'s3' => array(
-	    	//'class' => 'ext.s3.ES3',
-	    	//'aKey'=>getenv('AWS_ACCESS_KEY'), 
-	  		//'sKey'=>getenv('AWS_SECRET'),
-	  	//),
             'user' => array(
             // enable cookie-based authentication
 //            'class' => 'RWebUser',   //rights rbac
@@ -90,7 +85,7 @@ return array(
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
-                        'tablePrefix' => '',
+            'tablePrefix' => '',
 		),
             */
                 
@@ -108,9 +103,13 @@ return array(
 				),
 				// uncomment the following to show log messages on web pages
 				
+				//array(
+					//'class'=>'CWebLogRoute',
+				//),
 				array(
-					'class'=>'CWebLogRoute',
-				),
+                'class'=>'ext.yii-debug-toolbar.YiiDebugToolbarRoute',
+                'ipFilters'=>array('127.0.0.1','192.168.1.215'),
+            ),
 				
 			),
 		),

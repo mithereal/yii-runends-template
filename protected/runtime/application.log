@@ -134,3 +134,35 @@ in /var/www/yiikart/index.php (13)
 in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
 in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
 in /var/www/yiikart/index.php (13)
+2014/06/15 19:45:24 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 19:45:24 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 19:49:19 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 19:50:01 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 19:52:41 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 19:56:50 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 19:57:18 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 19:57:45 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
