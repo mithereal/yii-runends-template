@@ -5,6 +5,13 @@
 
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
+if(getenv('ENVIRONMENT')){
+	$env = strtolower(getenv('ENVIRONMENT'));
+}else{
+	$env = 'local';
+}	
+
+define('ENVIRONMENT', $env);
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'yii with runends',

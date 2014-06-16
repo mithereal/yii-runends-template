@@ -1,6 +1,9 @@
 <?PHP 
+$main = require(dirname(__FILE__) . '/main.php');
+$env = require(dirname(__FILE__) . '/env/'. ENVIRONMENT .'/main.php');
+$mergedenv=CMap::mergeArray($env,$main);
 return CMap::mergeArray(
-    require(dirname(__FILE__). '/env/' . ENVIRONMENT .'/main.php'),
+    $mergedenv,
     array(
         'components'=>array(
 		's3' => array(
@@ -9,8 +12,8 @@ return CMap::mergeArray(
 	  		'sKey'=>getenv('AWS_SECRET'),
 	  	),
 	),
-	'params'=>require(dirname(__FILE__).'/params.php'),
+	
     )
 );
 
-?>
+

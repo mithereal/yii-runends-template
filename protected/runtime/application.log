@@ -76,3 +76,61 @@ in /var/www/yiikart/index.php (13)
 in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
 in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
 in /var/www/yiikart/index.php (13)
+2014/06/15 18:41:44 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:42:12 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:42:31 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:42:32 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:43:56 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:46:08 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:47:26 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:55:40 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:56:12 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 18:58:17 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "runEnd".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiikart/index.php(13): CComponent->__call('runEnd', Array)
+#1 /var/www/yiikart/index.php(13): CWebApplication->runEnd('frontend')
+#2 {main}
+REQUEST_URI=/
+---
+2014/06/15 18:58:51 [error] [exception.CException] exception 'CException' with message 'CWebApplication and its behaviors do not have a method or closure named "runEnd".' in /var/www/framework/base/CComponent.php:266
+Stack trace:
+#0 /var/www/yiikart/index.php(13): CComponent->__call('runEnd', Array)
+#1 /var/www/yiikart/index.php(13): CWebApplication->runEnd('frontend')
+#2 {main}
+REQUEST_URI=/
+---
+2014/06/15 18:59:09 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
+2014/06/15 19:17:58 [info] [application] a guest is in index of home
+in /var/www/yiikart/protected/controllers/frontend/SiteController.php (36)
+in /var/www/yiikart/protected/components/WebApplicationEndBehavior.php (25)
+in /var/www/yiikart/index.php (13)
